@@ -1,0 +1,16 @@
+# Ignore API keys and secrets
+.streamlit/secrets.toml
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore PyInstaller compiled files
+dist/
+build/
+*.spec
+
+# Ignore Python cache
+__pycache__/
+*.pyc
